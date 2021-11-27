@@ -11,6 +11,6 @@ source=("https://tamilfont.net/wp-content/uploads/bamini.zip")
 sha256sums=('53fca96e0fc31ff2905a132979904b8acb6a53a591d0cb3b305ebd087fe3650e')
 
 package() {
-    install -d "$pkgdir/usr/share/fonts/TTF"
-    install -m644 "$srcdir/"*.TTF "$pkgdir/usr/share/fonts/TTF/"
+    install -d "$pkgdir/usr/local/share/fonts/TTF"
+    install -m644 "$srcdir/"*.TTF "$pkgdir/usr/local/share/fonts/TTF/"
 }
